@@ -1,190 +1,695 @@
 <!DOCTYPE html>
-<html>
-
-  <head>
+<html lang="en">
+<head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Mamta Saini </title>
-  <meta name="description" content="Mamta's personal website.
-">
+  <title>Nitin Vetcha — AI Researcher</title>
+  <meta name="description" content="Nitin Vetcha is a researcher in AI, focusing on self-evolving AI scientists, LLM reasoning, meta-learning and continual adaptation. B.Tech at IISc Bangalore.">
+  <meta name="author" content="Nitin Vetcha">
+  <meta name="keywords" content="Nitin Vetcha, AI, LLM, Machine Learning, IISc, NUS, NTU, Meta-Learning, Continual Learning, Self-Evolving AI">
 
-  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Nitin Vetcha — AI Researcher">
+  <meta property="og:description" content="Researcher in self-evolving AI scientists, LLM reasoning, meta-learning and continual adaptation. B.Tech at IISc Bangalore.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nitinvetcha.github.io/">
+  <meta property="og:image" content="https://nitinvetcha.github.io/img/Nitin_Vetcha.jpg">
 
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
-
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/">
+  <link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="/assets/css/academicons.min.css">
+  <link rel="canonical" href="https://nitinvetcha.github.io/">
 </head>
 
+<body>
 
-  <body>
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a href="#hero" class="nav-brand">nitin.v</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">About</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#recommendations">Recs</a></li>
+    </ul>
+  </div>
+</nav>
 
-    <header class="site-header">
-
-  <div class="wrapper">
-
-    
-
-    <nav class="site-nav">
-      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
-
-      <div class="trigger">
-        <!-- About -->
-        <a class="page-link" href="/">About</a>
-
-        <a class="page-link" href="/PDFs/Mamta CV.pdf">Download CV</a>
-        <!-- Education -->
-        <a class="page-link" href="/Education">Education</a>
-        <!-- Pages -->
-        <a class="page-link" href="/Experience">Experience</a>
-
-        <a class="page-link" href="/Certifications">Certifications</a>
-
-<!--        <a class="page-link" href="/_pages/projects/"></a>-->
-          
-        
-
-        <!-- CV link -->
-        <!-- <a class="page-link" href="/assets/pdf/CV.pdf">vitae</a> -->
-
+<!-- ========== HERO / ABOUT ========== -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <h3>Hello, I am</h3>
+        <h1><span>Nitin Vetcha</span></h1>
+        <p class="hero-affiliation">
+          <strong>B.Tech in Mathematics &amp; Computing</strong> &nbsp;·&nbsp; <a href="https://iisc.ac.in/" target="_blank">Indian Institute of Science, Bangalore</a><br>
+          Visiting Scholar, <a href="https://www.cogai4sci.com/" target="_blank">CogAI4Sci Lab</a>, National University of Singapore<br>
+          <a href="https://www.ntu.edu.sg/computing" target="_blank">Global Connect Fellow</a>, NTU College of Computing &amp; Data Science
+        </p>
+        <p class="hero-bio">
+          My research vision centers on building <strong>self-evolving AI scientists</strong> that combine human-pedagogical principles with advanced reasoning frameworks. Through two years of intensive research culminating in publications at <strong>AAAI, ICLR, ACL, ACM SIGKDD</strong> and others, I have developed foundational expertise in reasoning-enhanced AI, meta-learning, multi-agent systems and continual adaptation.
+        </p>
+        <div class="social-links">
+          <a href="mailto:nitinvetcha@iisc.ac.in" title="Email"><i class="fas fa-envelope"></i> Email</a>
+          <a href="https://scholar.google.com/citations?hl=en&user=wYgCiJEAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> Scholar</a>
+          <a href="https://github.com/nitinvetcha" target="_blank" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://in.linkedin.com/in/nitin-vetcha-3600b725b" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://orcid.org/0009-0003-6542-324X" target="_blank" title="ORCID"><i class="ai ai-orcid"></i> ORCID</a>
+          <a href="https://openreview.net/profile?id=%7ENitin_Vetcha1" target="_blank" title="OpenReview"><i class="ai ai-open-access"></i> OpenReview</a>
+        </div>
       </div>
-    </nav>
-
+      <div class="hero-photo-wrapper">
+        <img class="hero-photo" src="/img/Nitin_Vetcha.jpg" alt="Nitin Vetcha">
+      </div>
+    </div>
   </div>
+</section>
 
-</header>
-
-
-
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="post">
-
-  <header class="post-header">
-    <h3 class = "post-description">Hello, I am</h3>
-    <h1 class="post-title"><strong>Mamta Saini &nbsp;  </strong>  </h1>
-    <h3 class = "post-description"> ML | SCI ML | DA | QPA | ETL </h3>
-    <h5 class="post-description"><a href="https://zenteiq.ai/"> Zenteiq Aitech, IISc Bangalore, India</a>.</h5>
-  </header>
-
-  <article class="post-content <strong> Mamta Saini</strong> clearfix">
-    
-  <div class="profile col one right">
-
-      <img class="one" src="/img/Mamta.jpg">
-
+<!-- ========== NEWS ========== -->
+<section id="news">
+  <div class="container">
+    <div class="section-header fade-in">
+      <p class="section-label">What's New</p>
+      <h2 class="section-title">News &amp; Highlights</h2>
+    </div>
+    <div class="news-list fade-in">
+      <div class="news-item">
+        <span class="news-date">Mar 2026</span>
+        <div class="news-content"><strong>ICLR 2026</strong> — Two workshop papers accepted: <em>CAO-LLM</em> (CAO Workshop) and <em>CORAL</em> (MALGAI Workshop).</div>
+      </div>
+      <div class="news-item">
+        <span class="news-date">Feb 2026</span>
+        <div class="news-content"><strong>ACL 2026</strong> — <em>DeGAML-LLM: Decoupled Generalization and Adaptation Meta-Learning for LLMs</em> accepted.</div>
+      </div>
+      <div class="news-item">
+        <span class="news-date">Feb 2026</span>
+        <div class="news-content"><strong>AAAI 2026</strong> — Three papers accepted at Bridge Programs (SCL, Plan-FM) with contributed talks at Singapore Expo.</div>
+      </div>
+      <div class="news-item">
+        <span class="news-date">Feb 2026</span>
+        <div class="news-content"><strong>ACM SIGKDD 2026</strong> — Contributed talk at the Symposium on LLMs at SUTD Singapore.</div>
+      </div>
+      <div class="news-item">
+        <span class="news-date">Jan 2026</span>
+        <div class="news-content"><strong>ICML 2026</strong> — <em>FOCAL: Foundation-Oriented Cognitive Adaptive Learning for LLMs</em> submitted.</div>
+      </div>
+      <div class="news-item">
+        <span class="news-date">Jan 2026</span>
+        <div class="news-content">Selected as a <strong>Global Connect Fellow</strong> at NTU CCDS — an extremely competitive fellowship with ~1% acceptance rate (39 fellows from 26 nationalities and 41 universities worldwide).</div>
+      </div>
+      <div class="news-item">
+        <span class="news-date">Dec 2025</span>
+        <div class="news-content"><strong>ACM ACSW 2026</strong> — <em>ALIAS</em> paper accepted and published in ACM ICPS proceedings.</div>
+      </div>
+      <div class="news-item">
+        <span class="news-date">Jul 2025</span>
+        <div class="news-content">Joined <a href="https://www.cogai4sci.com/" target="_blank">CogAI4Sci Lab, NUS</a> as a visiting scholar under <a href="https://www.asintelligence.xyz/" target="_blank">Prof. Dianbo Liu</a>.</div>
+      </div>
+    </div>
   </div>
+</section>
 
-
-
-<p>
-  I am [Coming soon...]
-</p>
-<!--My research interests are in machine learning and scientific computing.-->
-<!--I have been working on developing deep learning methods <a href="/neural-operator">neural operators</a> <a href="/neural-operator/Neural-Operator-CS159-0503-2022.pdf">(slides)</a> for partial differential equations.-->
-<p>
- Next para [ coming soon...]
-</p>
-<!--<p>Prior to my PhD, I completed my undergraduate studies at Washington University in St. Louis (2015-2019),-->
-<!--double-majoring in computer science and mathematics with a minor in Jazz. -->
-<!--I was privileged to be advised by <a href="https://www.cse.wustl.edu/~bjuba/">Brendan Juba</a> and <a href="https://www.math.wustl.edu/~xtang/">Xiang Tang</a>.</p>-->
-
-<!--<p> <strong> I am currently on the 2024-2025 job market! </strong>-->
-<!--</p>-->
-
-<!--<p> <strong>News</strong>: <a href="http://tensorlab.cms.caltech.edu/users/anima/group.html"> Our group</a> is seeking both prospective PhD students and undergraduate interns to work on AI4Science at Caltech.-->
-<!--If you have a background in both machine learning and applied mathematics, please do not hesitate to contact us!</p>-->
-
-
-</article>
-
-  
-
-  
-
-<div class="row" style="margin-top:20px;">
-
-  <div class="col-auto px-0 h-100">
-    <span class="social-icons-container">
-
-      <!-- GitHub -->
-      <a href="https://github.com/mamtasaini003" target="_blank" class="btn social-icon github">
-        <i class="fab fa-github"></i>
-      </a>
-
-      <!-- LinkedIn -->
-      <a href="https://www.linkedin.com/in/mamta-saini-61a8b221a/" target="_blank" class="btn social-icon linkedin">
-        <i class="fab fa-linkedin"></i>
-      </a>
-
-      <!-- Email -->
-      <a href="mailto:myselfdk03@gmail.com" target="_blank" class="btn social-icon email">
-        <i class="fas fa-envelope"></i>
-      </a>
-
-    </span>
+<!-- ========== RESEARCH INTERESTS ========== -->
+<section id="research">
+  <div class="container">
+    <div class="section-header fade-in">
+      <p class="section-label">Focus Areas</p>
+      <h2 class="section-title">Research Interests</h2>
+      <p class="section-subtitle">Bridging the gap between static, data-driven optimization and the dynamic, structured reasoning characteristic of human scientific discovery.</p>
+    </div>
+    <div class="research-grid fade-in">
+      <div class="research-card">
+        <div class="icon"><i class="fas fa-robot"></i></div>
+        <h3>Autonomous Agentic Architectures &amp; Self-Evolution</h3>
+        <p>Pioneering open-ended agents (SAMKE, SOLAR, CORAL, ALIAS) capable of self-improvement not merely by learning <em>from</em> data, but by exploring the weight space to learn <em>how</em> to adapt — validating the feasibility of self-evolving AI scientists.</p>
+      </div>
+      <div class="research-card">
+        <div class="icon"><i class="fas fa-brain"></i></div>
+        <h3>Cognitive-Inspired Learning &amp; Knowledge Consolidation</h3>
+        <p>Developing human-pedagogy-inspired training paradigms (LMT², MASA) that simulate the protégé effect — structuring LLM adaptation through learning, mastery and teaching phases — achieving deeper understanding with less data.</p>
+      </div>
+      <div class="research-card">
+        <div class="icon"><i class="fas fa-chart-line"></i></div>
+        <h3>Robust Optimization &amp; Structural Decoupling</h3>
+        <p>Identifying and resolving geometric bottlenecks in bi-level meta-learning (FOCAL, DeGAML-LLM, CAO-LLM) through temporal orthogonalization — providing mathematical foundations for stable continual adaptation.</p>
+      </div>
+    </div>
   </div>
-</div>
+</section>
 
+<!-- ========== PUBLICATIONS ========== -->
+<section id="publications">
+  <div class="container">
+    <div class="section-header fade-in">
+      <p class="section-label">Research Output</p>
+      <h2 class="section-title">Publications</h2>
+      <p class="section-subtitle">16 papers across top-tier venues — 8 published/accepted, 8 under review.</p>
+    </div>
 
+    <!-- Published / Accepted -->
+    <div class="pub-category fade-in">
+      <h3 class="pub-category-title"><i class="fas fa-check-circle" style="color:var(--emerald)"></i> Published &amp; Accepted <span class="pub-count">11</span></h3>
+      <div class="pub-list">
+
+        <div class="pub-item">
+          <div class="pub-info">
+            <div class="pub-title">CAO-LLM: Catching, Adapting and Operating Under Distribution Drift for LLMs</div>
+            <div class="pub-authors"><span class="me">Vetcha, N.</span> (2026)</div>
+            <div class="pub-venue">Catch, Adapt, and Operate Workshop, ICLR 2026</div>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-iclr">ICLR 2026</span>
+            <a class="badge badge-link" href="https://openreview.net/forum?id=CcRr1TTmYZ#discussion" target="_blank"><i class="fas fa-external-link-alt"></i> Paper</a>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-info">
+            <div class="pub-title">CORAL: Cooperative Multi-Agent Orchestration for LLM Adaptation Across Diverse Environments</div>
+            <div class="pub-authors"><span class="me">Vetcha, N.</span> (2026)</div>
+            <div class="pub-venue">Multi-Agent Learning Workshop, ICLR 2026</div>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-iclr">ICLR 2026</span>
+            <a class="badge badge-link" href="https://openreview.net/forum?id=sqcHJMun10" target="_blank"><i class="fas fa-external-link-alt"></i> Paper</a>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-info">
+            <div class="pub-title">DeGAML-LLM: Decoupled Generalization and Adaptation Meta-Learning for LLMs</div>
+            <div class="pub-authors"><span class="me">Vetcha, N.</span>, Xu, B., &amp; Liu, D. (2026)</div>
+            <div class="pub-venue">ACL 2026</div>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-acl">ACL 2026</span>
+            <a class="badge badge-link" href="https://github.com/nitinvetcha/DeGAML-LLM" target="_blank"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-info">
+            <div class="pub-title">SAMKE: Open-Ended Autonomous Foundation-Model-Based Agent for Meta-Knowledge Discovery &amp; Learning</div>
+            <div class="pub-authors"><span class="me">Vetcha, N.</span> &amp; Liu, D. (2026)</div>
+            <div class="pub-venue">AAAI 2026 Bridge Program — Streaming Continual Learning (SCL)</div>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-aaai">AAAI 2026</span>
+            <a class="badge badge-link" href="https://openreview.net/pdf?id=2iWCII5GMT" target="_blank"><i class="fas fa-external-link-alt"></i> Paper</a>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-info">
+            <div class="pub-title">Human-Pedagogy Inspired LLM Fine-Tuning Paradigm for Lifelong Learning and Continual Adaptation</div>
+            <div class="pub-authors"><span class="me">Vetcha, N.</span> (2026)</div>
+            <div class="pub-venue">AAAI 2026 Bridge Program — Streaming Continual Learning (SCL)</div>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-aaai">AAAI 2026</span>
+            <a class="badge badge-link" href="https://indianinstituteofscience-my.sharepoint.com/:b:/g/personal/nitinvetcha_iisc_ac_in/IQDGgDK56K_oRJU32ZHM72qyAa-uoV9f1_u4xMPsiwOsx3s?e=gcncWf" target="_blank"><i class="fas fa-external-link-alt"></i> Paper</a>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-info">
+            <div class="pub-title">SOLAR: A Self-Optimizing Open-Ended Autonomous Agent for Lifelong Learning and Continual Adaptation</div>
+            <div class="pub-authors"><span class="me">Vetcha, N.</span> &amp; Liu, D. (2026)</div>
+            <div class="pub-venue">AAAI 2026 Bridge Program — Planning and Foundation Models (Plan-FM)</div>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-aaai">AAAI 2026</span>
+            <a class="badge badge-link" href="https://indianinstituteofscience-my.sharepoint.com/:b:/g/personal/nitinvetcha_iisc_ac_in/IQDl29iQ2wjRQZVErv6V24i_AbZjn9hVuF9xkhdJnTy5_FM?e=EnJbBe" target="_blank"><i class="fas fa-external-link-alt"></i> Paper</a>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-info">
+            <div class="pub-title">ALIAS: An Open-Ended Adaptively Learnable Intelligent AI System for Efficient Domain Adaptation</div>
+            <div class="pub-authors"><span class="me">Vetcha, N.</span> &amp; Ganesan, S. (2026)</div>
+            <div class="pub-venue">ACM International Conference Proceedings Series (ICPS), ACM ACSW 2026</div>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-acm">ACM 2026</span>
+            <a class="badge badge-link" href="http://camps.aptaracorp.com/ACM_PMS/PMS/ACM/ACSW2026/4/0902d77b-f958-11f0-aa9c-16ffd757ba29/OUT/acsw2026-4.html#BibPLXBIB0026" target="_blank"><i class="fas fa-external-link-alt"></i> Paper</a>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-info">
+            <div class="pub-title">Fault Detection and Diagnosis in Cyber Physical Systems using Hybrid Deep Learning Approach</div>
+            <div class="pub-authors">K K, S., <span class="me">Vetcha, N.</span>, Nair, M. S., Bijikumar, K. S., &amp; Manoj, B. S. (2025)</div>
+            <div class="pub-venue">IEEE Access</div>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-ieee">IEEE Access</span>
+            <a class="badge badge-link" href="https://indianinstituteofscience-my.sharepoint.com/:b:/g/personal/nitinvetcha_iisc_ac_in/IQDMiP3D8pGjT76X9U420on6AXlLmv_5AKLVwieiQiD_sGQ?e=QH6wgQ" target="_blank"><i class="fas fa-external-link-alt"></i> Paper</a>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-info">
+            <div class="pub-title">A Mathematical Review-based Modification of Large Language Models</div>
+            <div class="pub-authors"><span class="me">Vetcha, N.</span> &amp; Roy, K. (2025)</div>
+            <div class="pub-venue">APOGEE 2025, BITS Pilani</div>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-acm">APOGEE 2025</span>
+            <a class="badge badge-link" href="https://indianinstituteofscience-my.sharepoint.com/:b:/g/personal/nitinvetcha_iisc_ac_in/IQABO9S5_6caQ70TLT2frGd5AcooE-SSK7ruKSmTyVb6rhY?e=z3gtew" target="_blank"><i class="fas fa-external-link-alt"></i> Paper</a>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-info">
+            <div class="pub-title">Towards Infinite Length Extrapolation for LLMs: A Unified Approach</div>
+            <div class="pub-authors"><span class="me">Vetcha, N.</span> (2026)</div>
+            <div class="pub-venue">arXiv Preprint</div>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-arxiv">arXiv</span>
+            <a class="badge badge-link" href="https://arxiv.org/abs/2601.06113" target="_blank"><i class="fas fa-external-link-alt"></i> Paper</a>
+          </div>
+        </div>
 
       </div>
     </div>
 
-    <footer>
+    <!-- Under Review -->
+    <div class="pub-category fade-in">
+      <h3 class="pub-category-title"><i class="fas fa-clock" style="color:var(--amber)"></i> Under Review <span class="pub-count">5</span></h3>
+      <div class="pub-list">
 
-  <div class="wrapper">
-    &copy; Copyright 2025 Mamta Saini.
-    The base template and theme was inspired from <a href="https://github.com/alshedivat/al-folio">al-folio</a>. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+        <div class="pub-item">
+          <div class="pub-info">
+            <div class="pub-title">FOCAL: Foundation-Oriented Cognitive Adaptive Learning for Large Language Models</div>
+            <div class="pub-authors"><span class="me">Vetcha, N.</span> et al.</div>
+            <div class="pub-venue">Under Review — ICML 2026</div>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-review">ICML 2026</span>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-info">
+            <div class="pub-title">From Student to Teacher: A Cognitively-Grounded Framework for LLM Adaptation</div>
+            <div class="pub-authors"><span class="me">Vetcha, N.</span> et al.</div>
+            <div class="pub-venue">Under Review — ICLR HCAIR Workshop 2026</div>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-review">ICLR Wksp</span>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-info">
+            <div class="pub-title">Identifying Geometric Bottlenecks in Single-Stage Training: Observations from the Optimization Manifold</div>
+            <div class="pub-authors"><span class="me">Vetcha, N.</span> et al.</div>
+            <div class="pub-venue">Under Review — ICLR Sci4DL Workshop 2026</div>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-review">ICLR Wksp</span>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-info">
+            <div class="pub-title">Low-Rank Test-Time Adaptation of Large Language Models via Multi-Stage Meta-Learning</div>
+            <div class="pub-authors"><span class="me">Vetcha, N.</span> et al.</div>
+            <div class="pub-venue">Under Review — ICLR TTU Workshop 2026</div>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-review">ICLR Wksp</span>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-info">
+            <div class="pub-title">Beyond Synthetic Data: Foundation-Grounded Multi-Strategy Self-Improvement for LLMs (MASA)</div>
+            <div class="pub-authors"><span class="me">Vetcha, N.</span> et al.</div>
+            <div class="pub-venue">Under Review — ICLR RSI Workshop 2026</div>
+          </div>
+          <div class="pub-badges">
+            <span class="badge badge-review">ICLR Wksp</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
   </div>
+</section>
 
+<!-- ========== TALKS ========== -->
+<section id="talks">
+  <div class="container">
+    <div class="section-header fade-in">
+      <p class="section-label">Presentations</p>
+      <h2 class="section-title">Invited &amp; Contributed Talks</h2>
+    </div>
+    <div class="talks-list fade-in">
+      <div class="talk-item">
+        <div class="talk-icon"><i class="fas fa-microphone-alt"></i></div>
+        <div class="talk-info">
+          <h4>ACM SIGKDD 2026 Symposium on Large Language Models</h4>
+          <p>Contributed talk · Singapore University of Technology and Design &nbsp; <a href="https://kdd.sg/singapore-acm-sigkdd-symposium-2026/program-schedule/" target="_blank"><i class="fas fa-external-link-alt"></i></a></p>
+        </div>
+      </div>
+      <div class="talk-item">
+        <div class="talk-icon"><i class="fas fa-microphone-alt"></i></div>
+        <div class="talk-info">
+          <h4>AAAI 2026 Bridge — Planning &amp; Reasoning with Foundation Models</h4>
+          <p>Contributed talk · Singapore Expo &nbsp; <a href="https://plan-fm.github.io/2026/" target="_blank"><i class="fas fa-external-link-alt"></i></a></p>
+        </div>
+      </div>
+      <div class="talk-item">
+        <div class="talk-icon"><i class="fas fa-microphone-alt"></i></div>
+        <div class="talk-info">
+          <h4>AAAI 2026 Bridge — Streaming Continual Learning</h4>
+          <p>Contributed talk · Singapore Expo &nbsp; <a href="https://streamingcl.capymoa.org/" target="_blank"><i class="fas fa-external-link-alt"></i></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PROJECTS ========== -->
+<section id="projects">
+  <div class="container">
+    <div class="section-header fade-in">
+      <p class="section-label">Ongoing Work</p>
+      <h2 class="section-title">Research Projects</h2>
+    </div>
+    <div class="projects-grid fade-in">
+
+      <div class="project-card">
+        <h3>Digital AI Twin of Human Scientific Researcher</h3>
+        <p class="project-desc">Bachelor thesis project — developing a human-pedagogy-inspired self-evolving and reasoning-enhanced AI Scientist. On-site at CogAI4Sci Lab, NUS under Prof. Dianbo Liu and Kai Wang (Tencent).</p>
+        <div class="project-tags">
+          <span class="tag">Self-Evolution</span>
+          <span class="tag">AI Scientist</span>
+          <span class="tag">Multi-Agent</span>
+          <span class="tag">Meta-Learning</span>
+        </div>
+        <span class="exp-date">Jul 2025 – Apr 2026</span>
+      </div>
+
+      <div class="project-card">
+        <h3>DeGAML-LLM</h3>
+        <p class="project-desc">Decoupled Generalization and Adaptation Meta-Learning framework that resolves geometric bottlenecks in bi-level meta-learning for LLMs through temporal orthogonalization.</p>
+        <div class="project-tags">
+          <span class="tag">Meta-Learning</span>
+          <span class="tag">Optimization</span>
+          <span class="tag">ACL 2026</span>
+        </div>
+        <a class="project-link" href="https://nitinvetcha.github.io/DeGAML-LLM/" target="_blank">Project Page <i class="fas fa-arrow-right"></i></a>
+      </div>
+
+      <div class="project-card">
+        <h3>LaDRA: Latent Diffusion Research Agents</h3>
+        <p class="project-desc">Unifying latent-space multi-agent communication with draft-centric deep-research workflows. Replacing token-mediated state transfer with lossless KV-cache propagation for 3-4× efficiency gains.</p>
+        <div class="project-tags">
+          <span class="tag">Latent Space</span>
+          <span class="tag">Deep Research</span>
+          <span class="tag">Multi-Agent</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>AIMMS: Adaptive Intelligence Memory Management System</h3>
+        <p class="project-desc">A six-layer human-cognition-inspired memory architecture for autonomous AI scientists — featuring multi-granular storage, parametric internalization, neuro-symbolic retrieval and self-evolving skill crystallization.</p>
+        <div class="project-tags">
+          <span class="tag">Memory Systems</span>
+          <span class="tag">Cognitive AI</span>
+          <span class="tag">NeurIPS 2026</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Abstraction-Enhanced Latent Space Reasoning in LLMs</h3>
+        <p class="project-desc">Investigating diffusion-language model integration for abstract internal reasoning — enabling LLMs to process ideas in latent space before articulation, inspired by human cognitive abstraction.</p>
+        <div class="project-tags">
+          <span class="tag">Latent Reasoning</span>
+          <span class="tag">Diffusion Models</span>
+          <span class="tag">NUS</span>
+        </div>
+        <span class="exp-date">Apr 2025 – Jul 2025</span>
+      </div>
+
+      <div class="project-card">
+        <h3>LMT² (Learn-Master-Teach Tuning)</h3>
+        <p class="project-desc">A novel 3-phase, 11-stage fine-tuning paradigm incorporating curriculum learning, self-reflection and learning-by-teaching. Achieved 33% improvement over conventional fine-tuning on specialized domains.</p>
+        <div class="project-tags">
+          <span class="tag">Fine-Tuning</span>
+          <span class="tag">Pedagogy</span>
+          <span class="tag">AAAI 2026</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== EDUCATION ========== -->
+<section id="education">
+  <div class="container">
+    <div class="section-header fade-in">
+      <p class="section-label">Background</p>
+      <h2 class="section-title">Education &amp; Awards</h2>
+    </div>
+    <div class="edu-grid fade-in">
+      <div class="edu-card">
+        <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+        <div class="edu-details">
+          <h3>B.Tech in Mathematics and Computing</h3>
+          <p class="edu-institution">Indian Institute of Science, Bangalore</p>
+          <p class="edu-meta">Class of 2026 · TGPA: <span class="highlight">10 / 10</span></p>
+        </div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-icon"><i class="fas fa-school"></i></div>
+        <div class="edu-details">
+          <h3>Central Board of Secondary Education (Class XII)</h3>
+          <p class="edu-institution">Narayana E-Techno School</p>
+          <p class="edu-meta">2022 · Score: <span class="highlight">97%</span></p>
+        </div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-icon"><i class="fas fa-school"></i></div>
+        <div class="edu-details">
+          <h3>Indian Certificate of Secondary Education (Class X)</h3>
+          <p class="edu-institution">Baldwin Boys High School</p>
+          <p class="edu-meta">2020 · Score: <span class="highlight">99%</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="awards-grid fade-in">
+      <div class="award-item">
+        <span class="award-icon"><i class="fas fa-trophy"></i></span>
+        <div><strong>Global Connect Fellowship</strong> at NTU — an extremely competitive fellowship with ~1% acceptance rate; only 39 students selected from 26 nationalities and 41 top universities worldwide.</div>
+      </div>
+      <div class="award-item">
+        <span class="award-icon"><i class="fas fa-medal"></i></span>
+        <div>All India Ranks — <strong>315</strong> (JEE Main 2022), <strong>499</strong> (KVPY SX 2022), <strong>580</strong> (JEE Advanced 2022) out of <strong>1.5 million</strong> applicants.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== EXPERIENCE ========== -->
+<section id="experience">
+  <div class="container">
+    <div class="section-header fade-in">
+      <p class="section-label">Professional</p>
+      <h2 class="section-title">Experience &amp; Service</h2>
+    </div>
+    <div class="experience-grid fade-in">
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <h3>Bachelor Thesis — Digital AI Twin of Human Scientific Researcher</h3>
+          <span class="exp-date">Jul 2025 – Apr 2026</span>
+        </div>
+        <p class="exp-org"><a href="https://www.cogai4sci.com/" target="_blank">CogAI4Sci Lab</a>, NUS — under <a href="https://www.asintelligence.xyz/" target="_blank">Prof. Dianbo Liu</a> &amp; <a href="https://kaiwang960112.github.io/" target="_blank">Kai Wang</a> (Tencent)</p>
+        <div class="exp-desc">Developing specialized plug-in modules for AI scientists — foundational knowledge consolidation with self-evolving memory and reflective hypothesis propose-test-verify workflows.</div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <h3>MentorX Team Lead</h3>
+          <span class="exp-date">May 2025 – Present</span>
+        </div>
+        <p class="exp-org"><a href="https://zenteiq.ai/" target="_blank">Zenteiq.AI</a>, IISc Bangalore</p>
+        <div class="exp-desc">Initiated and mentoring a team of 10 undergraduate students to build personalized AI educational tutors for mathematics and computer science at K-12 NCERT level.</div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <h3>Founder — Team Vicharaka</h3>
+          <span class="exp-date">Jul 2023 – Dec 2023</span>
+        </div>
+        <p class="exp-org">Indian Institute of Science, Bangalore</p>
+        <div class="exp-desc">
+          <ul>
+            <li>Founded the first undergraduate robotics club at IISc, targeting participation at the University Rover Challenge, USA.</li>
+            <li>Secured INR 42 lakh (~S$65,000) over 2 years and managed a 25-member inter-disciplinary team.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <div class="exp-header">
+          <h3>Research Intern</h3>
+          <span class="exp-date">Nov 2023 – Jan 2024</span>
+        </div>
+        <p class="exp-org">Vizuara AI — Lost in Translation</p>
+      </div>
+
+    </div>
+
+    <!-- Academic Service -->
+    <div class="section-header fade-in" style="margin-top: 3rem;">
+      <p class="section-label">Service</p>
+      <h2 class="section-title" style="font-size: 1.6rem;">Academic Service</h2>
+    </div>
+    <div class="service-list fade-in">
+      <div class="service-item">
+        <span class="service-icon"><i class="fas fa-user-check"></i></span>
+        <div>Reviewer — <strong>ICLR 2026</strong> Workshop on Multi-Agent Learning and Its Opportunities in the Era of Generative AI &nbsp;<a href="https://iclr26-mal-gai.github.io/" target="_blank"><i class="fas fa-external-link-alt"></i></a></div>
+      </div>
+      <div class="service-item">
+        <span class="service-icon"><i class="fas fa-user-check"></i></span>
+        <div>Reviewer — <strong>ICLR 2026</strong> Workshop Catch, Adapt, and Operate: Monitoring ML Models Under Drift &nbsp;<a href="https://sites.google.com/view/iclr-2026-workshop-cao/" target="_blank"><i class="fas fa-external-link-alt"></i></a></div>
+      </div>
+      <div class="service-item">
+        <span class="service-icon"><i class="fas fa-user-check"></i></span>
+        <div>Reviewer — <strong>ICLR 2026</strong> Workshop on AI with Recursive Self-Improvement &nbsp;<a href="https://recursive-workshop.github.io/" target="_blank"><i class="fas fa-external-link-alt"></i></a></div>
+      </div>
+      <div class="service-item">
+        <span class="service-icon"><i class="fas fa-user-check"></i></span>
+        <div>Reviewer — <strong>ICLR 2026</strong> Workshop on Scaling Post-training for LLMs &nbsp;<a href="https://spoticlr.github.io/" target="_blank"><i class="fas fa-external-link-alt"></i></a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== RECOMMENDATIONS ========== -->
+<section id="recommendations">
+  <div class="container">
+    <div class="section-header fade-in">
+      <p class="section-label">Testimonials</p>
+      <h2 class="section-title">Faculty Recommendations</h2>
+    </div>
+    <div class="recs-grid fade-in">
+
+      <div class="rec-card">
+        <p class="rec-quote">Nitin Vetcha is a bright, hard working and sincere student. He grasps well advanced and abstract ideas very well. He has very good analytical ability and technical proficiency as well as excellent ability to work independently and motivation / commitment.</p>
+        <div class="rec-author">
+          <h4>Prof. Sashikumaar Ganeshan</h4>
+          <p>Chairman &amp; Professor, CDS, IISc<br>Bachelor Thesis &amp; Junior Summer Internship Supervisor</p>
+        </div>
+      </div>
+
+      <div class="rec-card">
+        <p class="rec-quote">Nitin Vetcha has good writing as well as research skills. He worked in a dedicated and sincere manner during his internship. He interacted well with his research team-members and colleagues at Systems and Networks lab. He possesses good inter-personal relations.</p>
+        <div class="rec-author">
+          <h4>Prof. B.S. Manoj</h4>
+          <p>Head of Avionics Department, IIST &amp; Chair of IEEE RFID Council Kerala<br>Sophomore Summer Internship Supervisor</p>
+        </div>
+      </div>
+
+      <div class="rec-card">
+        <p class="rec-quote">Nitin Vetcha is systematic, hardworking, and has good analytical capabilities. Even though his stint at our laboratory was short, I was impressed by his dedication and sincerity. He has my strong recommendation, and I am sure he will become a successful researcher.</p>
+        <div class="rec-author">
+          <h4>Prof. Kaushik Basu</h4>
+          <p>Associate Professor, EECS, IISc<br>Fresher Summer Project Supervisor &amp; Course Instructor</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      &copy; 2026 Nitin Vetcha · Built with care · Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+    </div>
+  </div>
 </footer>
 
-
-    <!-- Load jQuery -->
-<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
-
-<!-- Load Common JS -->
-<script src="/assets/js/common.js"></script>
-
-
-<!-- Load KaTeX -->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js"></script>
-<script src="/assets/js/katex.js"></script>
-
-
-
-
-<!-- Include custom icon fonts -->
-<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
-<link rel="stylesheet" href="/assets/css/academicons.min.css">
-
-
-<!-- Google Analytics -->
+<!-- ========== SCRIPTS ========== -->
 <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+// Navbar scroll effect
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  navbar.classList.toggle('scrolled', window.scrollY > 30);
+});
 
-ga('create', 'UA-XXXXXXXXX', 'auto');
-ga('send', 'pageview');
+// Mobile nav toggle
+const navToggle = document.getElementById('navToggle');
+const navLinks = document.getElementById('navLinks');
+navToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('open');
+  const icon = navToggle.querySelector('i');
+  icon.classList.toggle('fa-bars');
+  icon.classList.toggle('fa-times');
+});
+
+// Close mobile nav on link click
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+    const icon = navToggle.querySelector('i');
+    icon.classList.add('fa-bars');
+    icon.classList.remove('fa-times');
+  });
+});
+
+// Active nav link on scroll
+const sections = document.querySelectorAll('section[id]');
+const navAnchors = document.querySelectorAll('.nav-links a');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(section => {
+    const top = section.offsetTop - 100;
+    if (window.scrollY >= top) {
+      current = section.getAttribute('id');
+    }
+  });
+  navAnchors.forEach(a => {
+    a.classList.remove('active');
+    if (a.getAttribute('href') === '#' + current) {
+      a.classList.add('active');
+    }
+  });
+});
+
+// Scroll-triggered fade-in animations
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 </script>
 
-
-
-  </body>
-
+</body>
 </html>
